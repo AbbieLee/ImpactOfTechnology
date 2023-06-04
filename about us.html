@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>About Us</title>
+	<link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div id="page">
+	<div id="header">
+		<h1>About Us</h1>
+	</div>
+
+	<b><p>
+		<a href="! the impacts of technology.html">
+		Back</a>
+	</p></b>
+		
+	<div id="left-column">
+		<b><p>
+			<a href="computers in the workforce.html">
+			Computers in the Workforce</a>
+		</p>
+		
+		<p> 
+			<a href="automated decision making.html">
+			Automated Decision Making</a>
+		</p>
+		
+		<p> 
+			<a href="artificial intelligence.html">
+			Artificial Intelligence</a>
+		</p>
+		
+		<p> 
+			<a href="environmental effects.html">
+			Environmental Effects</a>
+		</p>
+		
+		<p> 
+			<a href="ethical issues.html">
+			Ethical Issues</a>
+		</p></b>
+		
+		<p><img src="logo.png", width="200" height="200"></p>
+	</div>
+	
+	<div id="right-column">
+		<p>
+			TECHWORLD was established to educate the public on the influences that<br>
+			technology have on us and our world. Within the last couple decades, the<br>
+			way in which technology is intertwined with everyday life has grown to an<br>
+			unprecedented amount, and our goal is to bring the awareness to the topical<br>
+			issues that we currently face. Whilst technology may enhance our lives in<br>
+			many ways, we believe that conscious consumption is key. Join us in our<br>
+			journey to creating a better tech world!
+		</p>
+		
+		<form name="feedback">
+			<p><b>We want to hear from you! Give us your feedback below:</b></p>
+			<p id="box">
+				First name: <input type="text" name="input1"><br>
+				Last name: <input type="text" name="input2"><br>
+				Email address: <input type="text" name="input3"><br>
+				Have a question for us?<br>
+				<input type="text" name="input4"><br>
+			</p>
+			<button type="button" onclick="validate()">Submit</button>
+		</form>
+
+		<script>
+		function validate()
+		{
+			var x = document.forms["feedback"]["input1"].value;
+			var x = document.forms["feedback"]["input2"].value;
+			var x = document.forms["feedback"]["input3"].value;
+			var x = document.forms["feedback"]["input4"].value;
+			if (x == "")
+			{
+				document.getElementById("box").style.color="red";
+			}
+			else
+			{
+				alert("Thank you for submitting your feedback! We'll get in touch soon.");
+			}
+		}
+		</script>
+	</div>
+</div>
+</body>
+</html>

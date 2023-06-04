@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Environmental Effects</title>
+	<link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div id="page">
+	<div id="header">
+		<h1>Environmental Effects</h1>
+	</div>
+
+	<b><p>
+		<a href="! the impacts of technology.html">
+		Back</a>
+	</p></b>
+		
+	<div id="left-column">
+		<b><p> 
+			<a href="about us.html">
+			About Us</a>
+		</p>
+		
+		<p> 
+			<a href="computers in the workforce.html">
+			Computers in the Workforce</a>
+		</p>
+		
+		<p>
+			<a href="automated decision making.html">
+			Automated Decision Making</a>
+		</p>
+		
+		<p> 
+			<a href="artificial intelligence.html">
+			Artificial Intelligence</a>
+		</p>
+		
+		<p> 
+			<a href="ethical issues.html">
+			Ethical Issues</a>
+		</p></b>
+		
+		<p><img src="logo.png", width="200" height="200"></p>
+	</div>
+	
+	<div id="right-column">
+		<p>
+			As technological devices are being produced much more cheaply and widely,<br>
+			they have become affordable for a large proportion of the world population.<br>
+			The downside to this is the effect on the environment. The pressure of<br>
+			keeping up with trends, alongside the affordability, means that people now<br>
+			throw away more devices than before. Some computer components are built<br>
+			out of mercury and radioactive isotopes which are toxic and can contaminate<br>
+			water supplies. Often, this waste is shipped and disposed of to third world<br>
+			countries with lower environmental standards, which is considered to be<br>
+			immoral and unacceptable.
+		</p>
+		
+		<p>
+			That being said, the manufacturing process is one of the main ways that<br>
+			technology can have a negative effect on the environment. There can be a<br>
+			lot of wastage created during the construction of components, as well as the<br>
+			emission from all transportation of each component from different factories.<br>
+			he other way technology can have a negative impact on the environment is<br>
+			that some systems, like web servers or domain name servers, require to be<br>
+			left running constantly which can be quite energy demanding. Overall,<br>
+			technology can add to the effects of global warming through the wastage<br>
+			during manufacturing and its energy consumption, especially for larger<br>
+			companies.
+		</p>
+		
+		<p><img src="environmental effects 1.png", width="480" height="270"></p>
+		
+		<p>
+			As more devices become readily available, and processes are becoming<br>
+			either partially computerised or entirely computerised, more electricity is<br>
+			required to power these devices. This requires using up our stores of non-<br>
+			renewable fossil fuels which emit greenhouse gases into the atmosphere,<br>
+			contributing to global warming. The rate of climate change has accelerated<br>
+			over the past year, indicating that we need to be more careful about our<br>
+			consumption when it comes to technological devices. As a result of our<br>
+			consumption, the effects on the planet will go on to impact future<br>
+			generations, as well as biodiversity.
+		</p>
+		
+		<p><img src="environmental effects 2.jpg", width="480" height="270"></p>
+		
+		<p>
+			Here are some ways of minimising your computer’s impact on the<br>
+			environment:
+			<ol>
+				<li>Avoid wasting electricity:<br>
+				<ul><li>Turn off your computer and monitor when not in use</li></ul>
+				<ul><li>Use power management settings which are available on most newer<br>
+				computers. Power management settings determine when the<br>
+				computer and monitor shut off, or go into sleep or hibernate modes,<br>
+				which use less power than regular operating mode</li></ul>
+				<ul><li>Turn off peripherals, such as printers, scanners, speakers, external<br>
+				drives, and gaming systems, when not in use</li></ul>
+				<ul><li>Use a laptop or tablet instead of a desktop. Laptops typically<br>
+				consume less power than desktops, and tablets even less</li></ul>
+
+				<li>Avoid wasting paper:<br>
+				<ul><li>Print only what is necessary</li></ul>
+				<ul><li>Share information electronically, and read on the screen when you<br>
+				can</li></ul>
+				<ul><li>Finish editing first rather than printing early drafts if you need a<br>
+				hard copy, and print on the fewest number of pages possible</li></ul>
+
+				<li>Dispose of old equipment responsibly:<br>
+				<ul><li>Computers, monitors, and other peripheral devices frequently<br>
+				contain toxic materials, such as lead and mercury, so you should<br>
+				never throw old equipment in a landfill site</li></ul>
+			</ol>
+		</p>
+		
+		<p>
+			<iframe width="480" height="270"
+				src="https://www.youtube.com/embed/1YoGUYTg3k8">
+			</iframe>
+		</p>
+		
+		<form name="feedback">
+			<p><b>We want to hear from you! Give us your feedback below:</b></p>
+			<p id="box">
+				First name: <input type="text" name="input1"><br>
+				Last name: <input type="text" name="input2"><br>
+				Email address: <input type="text" name="input3"><br>
+				Have a question for us?<br>
+				<input type="text" name="input4"><br>
+			</p>
+			<button type="button" onclick="validate()">Submit</button>
+		</form>
+
+		<script>
+		function validate()
+		{
+			var x = document.forms["feedback"]["input1"].value;
+			var x = document.forms["feedback"]["input2"].value;
+			var x = document.forms["feedback"]["input3"].value;
+			var x = document.forms["feedback"]["input4"].value;
+			if (x == "")
+			{
+				document.getElementById("box").style.color="red";
+			}
+			else
+			{
+				alert("Thank you for submitting your feedback! We'll get in touch soon.");
+			}
+		}
+		</script>
+	</div>
+</div>
+</body>
+</html>

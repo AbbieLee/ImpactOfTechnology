@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Artificial Intelligence</title>
+	<link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div id="page">
+	<div id="header">
+		<h1>Artifical Intelligence</h1>
+	</div>
+
+	<b><p>
+		<a href="! the impacts of technology.html">
+		Back</a>
+	</p></b>
+		
+	<div id="left-column">
+		<b><p> 
+			<a href="about us.html">
+			About Us</a>
+		</p>
+		
+		<p>
+			<a href="computers in the workforce.html">
+			Computers in the Workforce</a>
+		</p>
+		
+		<p> 
+			<a href="automated decision making.html">
+			Automated Decision Making</a>
+		</p>
+		
+		<p> 
+			<a href="environmental effects.html">
+			Environmental Effects</a>
+		</p>
+		
+		<p> 
+			<a href="ethical issues.html">
+			Ethical Issues</a>
+		</p></b>
+		
+		<p><img src="logo.png", width="200" height="200"></p>
+	</div>
+	
+	<div id="right-column">
+		<p>
+			Artificial Intelligence (commonly abbreviated to ‘AI’) is the perceiving,<br>
+			synthesizing, and inferring of information by machines, as opposed to<br>
+			intelligence displayed by humans or animals. It displays the human-like<br>
+			capabilities such as reasoning, learning, and planning.
+		</p>
+		
+		<p>
+			The applications for artificial intelligence are endless, as the technology can<br>
+			be applied to many different sectors and industries. They can be found<br>
+			within:
+			<ul>
+				<li>Web search engines (Google)</li>
+				<li>Recommendation systems (YouTube, Amazon, Netflix)</li>
+				<li>Understanding human speech (Siri, Alexa)</li>
+				<li>Generative or creative tools (ChatGPT, AI art)</li>
+				<li>Healthcare industry (suggesting drug dosages, identifying treatments,<br>
+				aiding in surgical procedures in the operating room)</li>
+				<li>Computers that weigh the consequences of any action taken (chess, self-driving cars)</li>
+			</ul>
+		</p>
+		
+		<p>
+			The advantages of artificial intelligence are significant and can revolutionise<br>
+			any professional sector. These include:
+			<ol>
+				<li>Reduction in human error:<br>
+				Computers do not make the mistakes humans make if they are<br>
+				programmed properly. With artificial intelligence, the decisions are<br>
+				taken from the previously gathered information, which is then applied<br>
+				by a certain set of algorithms. Errors are reduced and the chance of<br>
+				reaching accuracy with a greater degree of precision is a possibility.</li>
+				<li>Availability:<br>
+				The average person will work for four-to-six hours a day, excluding the<br>
+				breaks. Humans are built in such a way to get some time off for<br>
+				refreshing themselves and get ready for a new day of work, as well as<br>
+				taking longer breaks to stay intact with both their work-life and their<br>
+				personal life. But on the other hand, artificial intelligence can work<br>
+				twenty-four-seven without any breaks or getting bored, unlike humans.</li>
+				<li>Digital assistance:<br>
+				Some of the most highly advanced organisations use digital assistants to<br>
+				interact with users, saving the need for human resources. The digital<br>
+				assistants used in many websites can provide the things that users want.<br>
+				We can chat with them about what we are looking for. Some chatbots<br>
+				are designed in such a way that it become hard to determine whether or<br>
+				not we’re chatting with a chatbot or a human being.</li>
+				<li>Daily applications:<br>
+				Applications such as Apple’s Siri, Window’s Cortana, and Google’s "OK<br>
+				Google" are frequently used in our daily lives whether it is for searching<br>
+				a location, taking a selfie, making a phone call, replying to an email,<br>
+				and much more.</li>
+			</ol>
+		</p>
+		
+		<p>
+			Alongside its many controversial and topical discussions over artificial<br>
+			intelligence, there are as many disadvantages as there are advantages. Some<br>
+			of them are as follows:
+			<ol>
+				<li>High costs of creation:<br>
+				As artificial intelligence is updating every day, the hardware and<br>
+				software need to be updated with time in order to meet the latest<br>
+				requirements. Machines need repairing and maintenance, which require<br>
+				plentiful in costs. Its creation also requires huge costs as they are very<br>
+				complex machines.</li>
+				<li>Laziness of human beings:<br>
+				Artificial intelligence is making humans lazy with its applications<br>
+				automating the majority of the work. Humans may also tend to get<br>
+				addicted to these inventions, which can cause a problem to future<br>
+				generations. For example, students of current and upcoming generations<br>
+				may become more dependent on chatbots for their educational studies.</li>
+				<li>Unemployment:<br>
+				As artificial intelligence is replacing the majority of the repetitive tasks<br>
+				and other works involving robots, human interference is becoming less<br>
+				which will cause a major problem in the employment standards.<br>
+				Nowadays, organisations look to replace the minimally qualified<br>
+				individuals with artificial intelligence robots, which can do similar work<br>
+				with more efficiency.</li>
+			</ol>
+		</p>
+		
+		<p>
+			<iframe width="480" height="270"
+				src="https://www.youtube.com/embed/ad79nYk2keg">
+			</iframe>
+		</p>
+		
+		<form name="feedback">
+			<p><b>We want to hear from you! Give us your feedback below:</b></p>
+			<p id="box">
+				First name: <input type="text" name="input1"><br>
+				Last name: <input type="text" name="input2"><br>
+				Email address: <input type="text" name="input3"><br>
+				Have a question for us?<br>
+				<input type="text" name="input4"><br>
+			</p>
+			<button type="button" onclick="validate()">Submit</button>
+		</form>
+
+		<script>
+		function validate()
+		{
+			var x = document.forms["feedback"]["input1"].value;
+			var x = document.forms["feedback"]["input2"].value;
+			var x = document.forms["feedback"]["input3"].value;
+			var x = document.forms["feedback"]["input4"].value;
+			if (x == "")
+			{
+				document.getElementById("box").style.color="red";
+			}
+			else
+			{
+				alert("Thank you for submitting your feedback! We'll get in touch soon.");
+			}
+		}
+		</script>
+	</div>
+</div>
+</body>
+</html>

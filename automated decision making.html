@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Automated Decision Making</title>
+	<link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div id="page">
+	<div id="header">
+		<h1>Automated Decision Making</h1>
+	</div>
+
+	<b><p>
+		<a href="! the impacts of technology.html">
+		Back</a>
+	</p></b>
+		
+	<div id="left-column">
+		<b><p> 
+			<a href="about us.html">
+			About Us</a>
+		</p>
+		
+		<p>
+			<a href="computers in the workforce.html">
+			Computers in the Workforce</a>
+		</p>
+		
+		<p> 
+			<a href="artificial intelligence.html">
+			Artificial Intelligence</a>
+		</p>
+		
+		<p> 
+			<a href="environmental effects.html">
+			Environmental Effects</a>
+		</p>
+		
+		<p> 
+			<a href="ethical issues.html">
+			Ethical Issues</a>
+		</p></b>
+		
+		<p><img src="logo.png", width="200" height="200"></p>
+	</div>
+	
+	<div id="right-column">
+		<p>
+			In today’s modern world, it has become increasingly common for decisions to<br>
+			be made by algorithms. These decisions often have the potential to<br>
+			significantly affect people’s lives and therefore the ethics of automated<br>
+			decision making is much debated.
+		</p>
+		
+		<p>
+			While there are varying degrees of automation, at its core automated<br>
+			decision making (ADM) is a system involved in making decisions using<br>
+			technology with no human input. It is designed to try and decrease the<br>
+			number of errors produced when analysis large sums of data, as well as<br>
+			maybe eradicating human bias that may be made when manual making<br>
+			decisions. The basis of the decisions made will be using data inputted. This is<br>
+			where profiling comes in; profiling is the automated processing of personal<br>
+			data to then analyse and make a decision based of this data.
+		</p>
+		
+		<p>
+			As an example, automated decision making can be used to determine what<br>
+			different users should be displayed on their social media feeds. This may be<br>
+			based on users’ interactions and inferences about their interests based on<br>
+			their connections. However, people argue whether or not it is important for<br>
+			users to be shown important news stories, or instead should be fed posts<br>
+			tailored to their interests. The fear of solely reinforcing people’s interests<br>
+			creates a dangerous bubble in which their beliefs are never challenged,<br>
+			leading to a close-minded society.
+		</p>
+		
+		<p>
+			In places like the USA, algorithms have been used in the past to assess a<br>
+			criminal’s likelihood of committing another crime based on a number of<br>
+			factors. Algorithmic decision-making has also been used in various<br>
+			application processes to determine a person’s suitability for mortgages,<br>
+			loans, and jobs. Relying entirely on these algorithms could result in people<br>
+			being treated unfairly, as these algorithms do not consider extenuating<br>
+			circumstances and are unable to process information with the same<br>
+			consideration of contextual factors that humans are able to provide.
+		</p>
+		
+		<p>
+			Ultimately, algorithms must be thoroughly tested in order to produce a high-<br>
+			quality piece of software that is free of bias against any group of people<br>
+			To perform well, they must be provided with factually correct data. It is also<br>
+			important to recognise that algorithms have been designed by a group of<br>
+			software developers so it cannot be assumed to be free of bias. As such, it is<br>
+			key that algorithms do not remain a black box, but instead the decisions<br>
+			made must be justified and some level of human input is essential to ensure<br>
+			fairness. Head over to the <a href="ethical issues.html"> Ethical Issues</a> tab for more.
+		</p>
+		
+		<p>
+			<iframe width="480" height="270"
+				src="https://www.youtube.com/embed/aB45MOrfjGQ">
+			</iframe>
+		</p>
+		
+		<p>
+			<iframe width="480" height="270"
+				src="https://www.youtube.com/embed/p2XnGW5wRyI">
+			</iframe>
+		</p>
+		
+		<form name="feedback">
+			<p><b>We want to hear from you! Give us your feedback below:</b></p>
+			<p id="box">
+				First name: <input type="text" name="input1"><br>
+				Last name: <input type="text" name="input2"><br>
+				Email address: <input type="text" name="input3"><br>
+				Have a question for us?<br>
+				<input type="text" name="input4"><br>
+			</p>
+			<button type="button" onclick="validate()">Submit</button>
+		</form>
+
+		<script>
+		function validate()
+		{
+			var x = document.forms["feedback"]["input1"].value;
+			var x = document.forms["feedback"]["input2"].value;
+			var x = document.forms["feedback"]["input3"].value;
+			var x = document.forms["feedback"]["input4"].value;
+			if (x == "")
+			{
+				document.getElementById("box").style.color="red";
+			}
+			else
+			{
+				alert("Thank you for submitting your feedback! We'll get in touch soon.");
+			}
+		}
+		</script>
+	</div>
+</div>
+</body>
+</html>

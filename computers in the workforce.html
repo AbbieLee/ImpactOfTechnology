@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Computers in the Workforce</title>
+	<link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div id="page">
+	<div id="header">
+		<h1>Computers in the Workforce</h1>
+	</div>
+
+	<b><p>
+		<a href="! the impacts of technology.html">
+		Back</a>
+	</p></b>
+		
+	<div id="left-column">
+		<b><p> 
+			<a href="about us.html">
+			About Us</a>
+		</p>
+		
+		<p>
+			<a href="automated decision making.html">
+			Automated Decision Making</a>
+		</p>
+		
+		<p> 
+			<a href="artificial intelligence.html">
+			Artificial Intelligence</a>
+		</p>
+		
+		<p> 
+			<a href="environmental effects.html">
+			Environmental Effects</a>
+		</p>
+		
+		<p> 
+			<a href="ethical issues.html">
+			Ethical Issues</a>
+		</p></b>
+		
+		<p><img src="logo.png", width="200" height="200"></p>
+	</div>
+	
+	<div id="right-column">
+		<p>
+			In recent years there has been a growing dependency on technology to<br>
+			function in society. The workplace is no exception, with many companies<br>
+			with many companies’ success being dependant on their prevalent access to<br>
+			technology and computers. As a result, computers have become an important<br>
+			part of how companies conduct business as well as how workers perform<br>
+			their job tasks, as well as impact where employees do their jobs.
+		</p>
+		
+		<p>
+			There are many reasons as to why the usage of computers in the workforce<br>
+			are deemed as advantageous:
+			<ol>
+				<li>Improving communication:<br>
+				When within the workplace and dealing with customers, computers can<br>
+				be used to improve communication in both cases. For example, an email<br>
+				can convey a large amount of information at one time whilst being<br>
+				viewed at the convenience of the recipient. This can eliminate the<br>
+				slowness of sending written information via postal mail.</li>
+				<li>Improving efficiency:<br>
+				Efficiency is improved in the workforce due to computers being able to<br>
+				increase the speed and accuracy of many work processes. For example,<br>
+				documents can be written and edited much more quickly with a word<br>
+				processing program, and procedures, such as billing and accounting, can<br>
+				also occur more rapidly and with fewer errors. Computers also help<br>
+				companies in administrative tasks, such as keeping up-to-date and accurate records.</li>
+				<li>Less paper:<br>
+				As workplaces grow more dependent on computers, their need for paper<br>
+				may decrease. Some companies may even introduce a policy of<br>
+				eliminating the use of paper wherever possible. Reducing paper may<br>
+				lead to a reduction in office supply costs, or even open more work space<br>
+				that was previously used to store paper documents in filing cabinets.
+			</ol>
+		</p>
+		
+		<p>
+			Consequently, there are equally as many reasons as to why the usage of<br>
+			computers in the workforce are viewed as disadvantageous:
+			<ol>
+				<li>Hardware and software concerns:<br>
+				Reducing the use of paper in the workforce is only as effective as the<br>
+				hardware and software used to store the records allow the workers to<br>
+				be. The maintenance of the hardware and software of a paper-reducing<br>
+				office is also a concern as information technology (IT) staff or<br>
+				consultants are often a necessity, as well as technicians to service the<br>
+				hardware on a regular basis.</li>
+				<li>Data entry errors and learning curves:<br>
+				Incorporating technology into a workforce often involves a learning<br>
+				curve, especially in an environment where employees are not already<br>
+				tech savvy. Data entry errors can be costly and can result in major<br>
+				problems, and data entry and filing errors can result in miscategorising<br>
+				records, making it difficult or impossible to find them at a later date.</li>
+				<li>Security concerns:<br>
+				Digital records can be vulnerable to unauthorised access. Especially with<br>
+				sensitive legal and medical records, data loss can result in significant<br>
+				liability for the company involved. The disposing of digital records<br>
+				presents a special difficulty, especially in a shared network environment.<br>
+				Simply erasing a file does not completely delete a digital record as it<br>
+				does not prevent someone else from retrieving the file later.</li>
+			</ol>
+		</p>
+		
+		<p>
+			<iframe width="480" height="270"
+				src="https://www.youtube.com/embed/BNJ5hNCpAJc">
+			</iframe>
+		</p>
+		
+		<form name="feedback">
+			<p><b>We want to hear from you! Give us your feedback below:</b></p>
+			<p id="box">
+				First name: <input type="text" name="input1"><br>
+				Last name: <input type="text" name="input2"><br>
+				Email address: <input type="text" name="input3"><br>
+				Have a question for us?<br>
+				<input type="text" name="input4"><br>
+			</p>
+			<button type="button" onclick="validate()">Submit</button>
+		</form>
+
+		<script>
+		function validate()
+		{
+			var x = document.forms["feedback"]["input1"].value;
+			var x = document.forms["feedback"]["input2"].value;
+			var x = document.forms["feedback"]["input3"].value;
+			var x = document.forms["feedback"]["input4"].value;
+			if (x == "")
+			{
+				document.getElementById("box").style.color="red";
+			}
+			else
+			{
+				alert("Thank you for submitting your feedback! We'll get in touch soon.");
+			}
+		}
+		</script>
+	</div>
+</div>
+</body>
+</html>
